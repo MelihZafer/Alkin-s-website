@@ -1,0 +1,138 @@
+/*Отвори коментарите и виж каква е промяната, вече ако искаш ще си ги запазиш :*
+  -Мелих Зафер
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Texturina:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252a; /*Премести го в боди тага долу*/
+}
+/* body {
+  user-select: none;
+  background-color: #24252a;
+} */
+li,
+a,
+button {
+  font-family: "Texturina", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  /* background-color: #222227; */
+  /* position: fixed; */
+  /* top: 0px; */
+  /* z-index: 1; */
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 25px;
+  position: relative;
+  right: 100px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: #0088a9;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  width: 450px;
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  color: white;
+  font-family: "Texturina", sans-serif;
+  /* background-color: #292a31;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap; */
+}
+.box-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p {
+  text-align: justify;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.box li {
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a {
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover {
+  color: #b9b9b9;
+}
+
+.fa {
+  padding: 20px 2px;
+  font-size: 30px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
